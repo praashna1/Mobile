@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/chkJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:text="java"
+        android:onClick="oncheckboxClicked"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/python"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="python"
+        android:onClick="oncheckboxClicked"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Android"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="android"
+        android:onClick="oncheckBoxclicked"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkAngular"
+        android:padding="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="angularJS"
+        android:onClick="onCheckBoxClicked"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getBtn"
+        android:layout_marginLeft="100dp"
+        android:text="get details"/>
+</LinearLayout>
